@@ -6,9 +6,9 @@
     <section class="featured-posts">
       <PostPreview
         id="1"
-        thumbnail="https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
         title="Hello there"
-        previeText="sample blog 1"
+        previewText="sample blog 1"
+        thumbnail="https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
       />
     </section>
   </div>
@@ -31,6 +31,7 @@
     padding: 30px;
     box-sizing: border-box;
     background-position: center;
+    background-image: url('~assets/images/main-page-background.jpg');
     background-size: cover;
   }
 

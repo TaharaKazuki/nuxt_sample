@@ -1,9 +1,9 @@
 <template>
-  <nuxt-link :to="{path: `posts/${id}`}" class="post-preview">
+  <nuxt-link :to="{ path: `posts/${id}`,props: true }" class="post-preview">
     <article>
       <div
         class="post-thumbnail"
-        :style="{backgroundImage: `url(${thumbnail})`}"></div>
+        :style="{ backgroundImage: `url(${ thumbnail })`}"></div>
       <div class="post-content">
         <h1>{{ title }}</h1>
         <p>{{ previewText }}</p>
