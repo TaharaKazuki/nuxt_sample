@@ -21,7 +21,6 @@
       PostPreview
     }
   }
-
 </script>
 
 <style scoped>
