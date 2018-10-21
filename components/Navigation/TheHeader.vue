@@ -24,6 +24,11 @@
     name: 'TheHeader',
     components: {
       TheSideNavToggle
+    },
+    methods: {
+      sidenavToggle() {
+
+      }
     }
   };
 
