@@ -1,7 +1,7 @@
 {
-  "name": "nuxt_sample",
+  "name": "nuxt",
   "version": "1.0.0",
-  "description": "My super-excellent Nuxt.js project",
+  "description": "My incredible Nuxt.js project",
   "author": "田原 一樹",
   "private": true,
   "scripts": {
@@ -11,11 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
-    "@nuxtjs/axios": "^5.0.0"
+    "nuxt": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "cross-env": "^5.0.1"
   }
 }

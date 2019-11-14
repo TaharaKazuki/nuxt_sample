@@ -1,6 +1,6 @@
-# nuxt_sample
+# nuxt
 
-> My super-excellent Nuxt.js project
+> My incredible Nuxt.js project
 
 ## Build Setup
 
@@ -20,4 +20,3 @@ $ yarn run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
-# nuxt_sample

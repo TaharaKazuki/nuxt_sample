@@ -1,5 +1,4 @@
 const pkg = require('./package')
-const path = require('path')
 
 module.exports = {
   mode: 'universal',
@@ -15,15 +14,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Open+Sans"}
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#FFFFFF' },
 
   /*
   ** Global CSS
@@ -41,26 +39,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
   ],
-  /*
-  ** Axios module configuration
-  */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
-  /*
-  ** editor jump
-  */
-  resolve: {
-    extensions: ['.js', '.json', '.vue', '.ts'],
-    root: path.resolve(__dirname),
-    alias: {
-      '@': path.resolve(__dirname),
-      '~': path.resolve(__dirname),
-    },
-  },
 
   /*
   ** Build configuration
